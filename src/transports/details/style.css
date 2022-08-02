@@ -1,0 +1,67 @@
+body {
+  padding: 8px;
+  background-color: var(--soft-gray);
+  font-family: "Roboto";
+  line-height: 2.2rem;
+  color: var(--dark-blue);
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+header img {
+  width: 34px;
+  height: min-content;
+  padding: 4px;
+}
+header h1 {
+  margin-left: 8px;
+}
+main {
+  font-size: 1.6rem;
+}
+.map {
+  border-radius: 14px;
+  background-color: white;
+  overflow: hidden;
+}
+.map > div {
+  padding: 8px;
+}
+.map > img {
+  width: 100%;
+  height: min-content;
+}
+.map > div > p {
+  margin-left: 4px;
+}
+.content {
+  display: grid;
+  row-gap: 16px;
+  margin-top: 16px;
+}
+.content > div {
+  padding: 8px;
+  border-radius: 14px;
+  background-color: white;
+}
+div .icon {
+  width: 16px;
+  height: 16px;
+}
+.map__route,
+.content__price,
+.content__max-passenger {
+  display: flex;
+  align-items: center;
+}
+
+.content .content__foto {
+  padding: 0px;
+  overflow: hidden;
+}
+.content__foto img {
+  width: 100%;
+  height: auto;
+}

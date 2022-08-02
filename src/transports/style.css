@@ -1,0 +1,75 @@
+body {
+  height: 100vh;
+}
+.categories__list {
+  display: flex;
+ overflow-x: scroll;
+}
+.categories__list div{
+  display: flex;
+  margin: 8px;
+  padding: 8px;
+  font-size: 1.4rem;
+  align-items: center;
+  border-radius: 50px;
+  background-color: white;
+}
+.categories__list div img {
+  height: 1.8rem;
+}
+.categories__list div span {
+  display: inline-block;
+  height: 1.4rem;
+  margin-left: 4px;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+.frame-content {
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 8px;
+}
+.frame-content figure {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr 2fr 1fr;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: white;
+}
+.frame-content figure div {
+  display: flex;
+  align-items: center;
+}
+.frame-content figure div p {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 1.4rem;
+}
+.frame-content__foto {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+.frame-content__foto img {
+  width: 100%;
+  height: auto;
+}
+.frame-content__route {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.frame-content__price {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.frame-content__schedule {
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+}
+.frame-content__route .icon,
+.frame-content__price .icon,
+.frame-content__schedule .icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+}

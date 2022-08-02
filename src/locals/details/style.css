@@ -1,0 +1,71 @@
+body {
+  padding: 8px;
+  background-color: var(--soft-gray);
+  font-family: "Roboto";
+  line-height: 2.2rem;
+  color: var(--dark-blue);
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+header img {
+  width: 34px;
+  height: min-content;
+  padding: 4px;
+}
+header h1 {
+  margin-left: 8px;
+}
+.content {
+  display: grid;
+  row-gap: 16px;
+  margin-top: 16px;
+}
+.content > div {
+  padding: 8px;
+  border-radius: 14px;
+  background-color: white;
+}
+.slider-photos img {
+  width: 100%;
+  border-radius: 16px;
+}
+.content__phone {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.content__phone p {
+  margin-left: 4px;
+  font-size: 1.6rem;
+}
+.content__phone img {
+  width: 16px;
+  height: 16px;
+}
+.content__phone .end{
+  position: absolute;
+  right: 8px;
+}
+.content__address--icons {
+  display: flex;
+  justify-content: space-between;
+}
+.content__address--icons img {
+  width: 16px;
+}
+.content__schedule img {
+  width: 16px;
+}
+.content__description h3 {
+  font-size: 1.6rem;
+}
+.content__address p,
+.content__schedule p,
+.content__description p{
+  margin-top: 4px;
+  font-size: 1.6rem;
+}
+

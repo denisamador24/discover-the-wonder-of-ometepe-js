@@ -1,0 +1,47 @@
+/*
+<color name="soft_grey">#F0F0F0</color>
+<color name="grey">#787878</color>
+<color name="dark_blue">#024059</color>
+<color name="dark_turquoise">#026873</color>
+<color name="card_soft_green">#A8F6A2</color>
+<color name="light_green">#698C82</color>
+<color name="dark_green">#025940</color>
+<color name="green">#03A64A</color>
+*/ 
+
+:root {
+  --soft-gray: #F0F0F0;
+  --dark-blue: #024059;
+  --dark-turquoise: #026873;
+  --card-soft-green: #A8F6A2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.hide {
+  display: none;
+}
+.background-river {
+  background-image: url('../img/ojo-de-agua.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.primary-button {
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  box-shadow: 1px 1px 2px black;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.primary-button:active {
+  box-shadow: none;
+  transform: translate(1px, 1px)
+}

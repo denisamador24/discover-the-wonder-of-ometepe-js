@@ -1,0 +1,35 @@
+#home-frame {
+  height: 100vh;
+}
+.home-frame__profile {
+  height: 40px;
+}
+.home-frame__profile img {
+  height: 100%;
+  width: auto;
+  margin-left: 8px;
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.home-frame__logo {
+  height: 128px;
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.home-frame__logo img {
+  height: 100%;
+  border-radius: 50%;
+}
+.home-frame__button-categories {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home-frame__button-categories button {
+  width: 260px;
+  margin: 8px;
+}

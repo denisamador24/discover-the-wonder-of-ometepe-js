@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+
+<body>
+ <main>
+   <section id="home-frame" class="background-river">
+     <div class="home-frame__profile">
+       <img src="./assets/icon/circle-user.png" alt="Profile">
+     </div>
+     <figure class="home-frame__logo">
+       <img src="./assets/img/logo.jpg" alt="Logo">
+     </figure>
+     <div class="home-frame__button-categories">
+       <button onclick="irLocal()" class="primary-button" type="submit">Comenzar con locales</button>
+       <button onclick="irTransport()" class="primary-button" type="submit">Comenzar con transporte</button>
+     </div>
+   </section>
+   
+   <section id="login-frame" class="hide">
+     <figure class="frame__logo">
+       <img src="./assets/img/logo.jpg" alt="Logo">
+     </figure>
+     <div>
+       <p>Iniciar sesión</p>
+       <form action="">
+         <input type="text">
+         <input type="text">
+       </form>
+       
+       <div>
+         <button type="submit">Iniciar Sesión</button>
+         <p>o<p>
+         <button type="submit">Google</button>
+       </div>
+     </div>
+   </section>
+   
+   <!-- <div>
+      <div>
+        <img src="./assets/icon/house.png" alt="">
+        <span>Inicio</span>
+      </div>
+      <div>
+        <img src="./assets/icon/circle-user.png" alt="">
+        <span></span>
+      </div>
+    </div>
+    -->
+ </main>
+ 
+ <script src="main.js"></script>
+</body>
+
+</html>
