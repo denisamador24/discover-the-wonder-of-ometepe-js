@@ -1,4 +1,6 @@
-
+body {
+  font-family: "Roboto"
+}
 .categories__list {
  display: flex;
  overflow: hidden;
@@ -28,7 +30,7 @@ main .categories__list .card-color {
   height: 98vh;
   display: grid;
   margin: 0 8px;
-  padding-bottom: 16px;
+  padding-bottom: 128px;
   gap: 16px;
   place-items: center;
   overflow: hidden;

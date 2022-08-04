@@ -33,3 +33,20 @@
   width: 260px;
   margin: 8px;
 }
+
+
+/* login section */
+#login-frame {
+  height: 100vh;
+}
+.frame__logo {
+  width: 100%;
+  padding-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+.frame__logo img {
+  height: 128px;
+  width: min-content;
+  border-radius: 50%;
+}

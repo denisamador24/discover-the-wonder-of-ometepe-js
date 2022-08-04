@@ -1,21 +1,20 @@
 body {
-  padding: 8px;
   background-color: var(--soft-gray);
   font-family: "Roboto";
   line-height: 2.2rem;
   color: var(--dark-blue);
 }
 header {
-  display: flex;
-  align-items: center;
+  background-color: white;
 }
+/*
 header img {
   width: 34px;
   height: min-content;
   padding: 4px;
-}
+}*/
 header h1 {
-  margin-left: 8px;
+  padding: 8px;
 }
 main {
   font-size: 1.6rem;
@@ -38,7 +37,7 @@ main {
 .content {
   display: grid;
   row-gap: 16px;
-  margin-top: 16px;
+  padding: 8px;
 }
 .content > div {
   padding: 8px;

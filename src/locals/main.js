@@ -56,7 +56,7 @@ function loadBares() {
   cardHotel.setAttribute('style', 'background-color: white');
   cardBeach.setAttribute('style','background-color: white');
   cardPark.setAttribute('style', 'background-color: white');
-  loadItemCategories(dataBars);
+  loadItemCategories(dataRestaurants);
 }
 function loadHoteles() {
   sessionStorage.setItem('categoryL', 2);
@@ -83,7 +83,7 @@ function loadParks() {
   cardHotel.setAttribute('style', 'background-color: white');
   cardBeach.setAttribute('style', 'background-color: white');
   cardPark.setAttribute('style', 'background-color: #A8F6A2');
-  loadItemCategories(dataParks);
+  loadItemCategories(dataBeach);
 }
 function loadItemCategories (list){
   frameContent.innerHTML = '';
