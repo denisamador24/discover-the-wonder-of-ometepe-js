@@ -12,27 +12,27 @@
 <body class="background-river">
   <header>
     <div class="categories__list">
-      <div>
+      <div id="cardBus" onclick="loadBuses()">
           <img src="../assets/icon/bus.png">
           <span>Buses</span>
-        </div>
-        <div>
+      </div>
+      <div id="cardTaxi" onclick="loadTaxis()">
           <img src="../assets/icon/taxi.png">
           <span>Taxis</span>
-        </div>
-        <div>
+      </div>
+      <div id="cardMoto" onclick="loadCaponeras()">
           <img src="../assets/icon/moto-taxi.png">
           <span>Caponera</span>
-        </div>
-        <div>
+      </div>
+      <div id="cardBarco" onclick="loadBarcos()">
           <img src="../assets/icon/boat.png">
           <span>Barcos</span>
-        </div>
+      </div>
     </div>
   </header>
   
   <main>
-    <div class="frame-content">
+    <div id="main-frame" class="frame-content">
       <figure>
         <div class="frame-content__foto">
           <img src="../assets/img/ferry.jpg" alt="Foto">
@@ -54,6 +54,9 @@
       </figure>
     </div>
   </main>
+  
+  <script src="data.js"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>

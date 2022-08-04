@@ -1,5 +1,5 @@
 body {
-  padding: 8px;
+  padding: 0 8px 16px;
   background-color: var(--soft-gray);
   font-family: "Roboto";
   line-height: 2.2rem;
@@ -8,15 +8,17 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding-bottom: 8px;
 }
+/*
 header img {
-  width: 34px;
+  width: 32px;
   height: min-content;
-  padding: 4px;
+  padding: 6px;
 }
+*/
 header h1 {
-  margin-left: 8px;
+  padding: 8px 0;
+  font-size: 2rem;
 }
 .content {
   display: grid;
@@ -28,23 +30,51 @@ header h1 {
   border-radius: 14px;
   background-color: white;
 }
-.slider-photos img {
-  width: 100%;
-  border-radius: 16px;
+.slider-photos {
+  width: 340px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
 }
+.slider-photos .slides {
+  display: flex;
+}
+.slider-photos .slides img {
+  width: 340px;
+  object-fit: cover;
+}
+.slider-photos .buttons {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  bottom: 16px;
+  justify-content: center;
+}
+.slider-photos .buttons div {
+  width: 12px;
+  height: 12px;
+  margin-left: 16px;
+  border: 1px solid white;
+  border-radius: 50%
+}
+.content__email,
 .content__phone {
   display: flex;
   position: relative;
   align-items: center;
 }
+.content__email p,
 .content__phone p {
   margin-left: 4px;
   font-size: 1.6rem;
 }
+.content__email img,
 .content__phone img {
   width: 16px;
   height: 16px;
 }
+.content__email .end,
 .content__phone .end{
   position: absolute;
   right: 8px;
@@ -55,6 +85,7 @@ header h1 {
 }
 .content__address--icons img {
   width: 16px;
+ 
 }
 .content__schedule img {
   width: 16px;
@@ -68,4 +99,23 @@ header h1 {
   margin-top: 4px;
   font-size: 1.6rem;
 }
-
+.content__description--img {
+  width: 100%;
+  display: grid;
+  row-gap: 16px;
+}
+.content__description--img img {
+  width: 100%;
+  height: min-content;
+  border-radius: 14px;
+}
+/*
+@media  (max-width: 720px){
+  .slider-photos {
+    width: 620px;
+  }
+  .slider-photos .slides img {
+    width: 620px;
+  
+}
+*/

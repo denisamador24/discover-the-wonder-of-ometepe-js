@@ -1,7 +1,11 @@
+
 .categories__list {
  display: flex;
  overflow: hidden;
  overflow-x: scroll;
+}
+main .categories__list .card-color {
+  background-color: red;
 }
 .categories__list div {
   display: flex;
@@ -21,9 +25,10 @@
   color: var(--dark-blue);
 }
 #frame-content {
-  height: 100vh;
+  height: 98vh;
   display: grid;
   margin: 0 8px;
+  padding-bottom: 16px;
   gap: 16px;
   place-items: center;
   overflow: hidden;
@@ -39,7 +44,8 @@
   border-radius: 16px 16px 0 0;
 }
 #frame-content figure p {
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 8px;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;

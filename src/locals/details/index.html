@@ -8,40 +8,53 @@
   
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="../../assets/styles/styles.css">
+  
 </head>
 
 <body>
   <header>
-    <img src="../../assets/icon/back1.png" alt="atras">
-    <h1>Hotel Xalli</h1>
+    <!--
+    <img onclick="goBack()" src="../../assets/icon/back1.png" alt="atras">
+    -->
+    <h1 id="local-name">Hotel Xalli</h1>
   </header>
+ 
   <main>
-    <div class="slider-photos">
-      <img src="../../assets/img/xalli.jpg" alt="Foto">
+    <div id="main-slides" class="slider-photos">
+      
     </div>
     <div class="content">
-      <div class="content__phone">
+      <div id="cPhone" class="content__phone">
         <img src="../../assets/icon/call.png">
-        <p>+505 78147194</p>
+        <p id="local-phone">+505 78147194</p>
         <img class="end" src="../../assets/icon/right-arrow.png">
       </div>
-      <div class="content__address">
+       <div id="cEmail" class="content__email">
+        <img src="../../assets/icon/email.png">
+        <p id="local-email">example@gmail.com</p>
+        <img class="end" src="../../assets/icon/right-arrow.png">
+      </div>
+      <div id="cAddress" class="content__address">
         <div class="content__address--icons">
           <img src="../../assets/icon/location.png">
           <img src="../../assets/icon/right-arrow.png" alt="">
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eligendi voluptatibus ex inventore nesciunt, ratione ad ullam perspiciatis laudantium tenetur, assumenda odio possimus blanditiis vero illo architecto? Non, minus! Veritatis.</p>
+        <p id="local-address">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eligendi voluptatibus ex inventore nesciunt, ratione ad ullam perspiciatis laudantium tenetur, assumenda odio possimus blanditiis vero illo architecto? Non, minus! Veritatis.</p>
       </div>
-      <div class="content__schedule">
+      <div id="cSchedule" class="content__schedule">
         <img src="../../assets/icon/schedule.png">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam</p>
+        <p id="local-schedule">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus laboriosam</p>
       </div>
-      <div class="content__description">
+      <div id="cDescription" class="content__description">
         <h3>Descripción</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, excepturi, deleniti. A, perspiciatis, in. Ea repellat aliquam aspernatur impedit, et, alias omnis, provident nostrum rerum possimus libero distinctio sequi sit!</p>
+        <p id="local-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, excepturi, deleniti. A, perspiciatis, in. Ea repellat aliquam aspernatur impedit, et, alias omnis, provident nostrum rerum possimus libero distinctio sequi sit!</p>
+        <div class="content__description--img"></div>
       </div>
     </div>
   </main>
+  
+
+<script src="main.js"></script>
 </body>
 
 </html>

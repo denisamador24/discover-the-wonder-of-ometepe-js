@@ -8,7 +8,6 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding-bottom: 8px;
 }
 header img {
   width: 34px;
@@ -46,22 +45,60 @@ main {
   border-radius: 14px;
   background-color: white;
 }
+.content .map {
+  padding: 0;
+}
 div .icon {
   width: 16px;
   height: 16px;
 }
 .map__route,
 .content__price,
-.content__max-passenger {
+.content__max-passenger,
+.content__license {
   display: flex;
   align-items: center;
 }
+.content__driver{
+  display: grid;
+  grid-template-rows: auto 120px auto auto;
+}
+.content__driver img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50px;
+}
+.content__driver p {
+  margin: auto;
+}
+.content__driver--icon {
+  width: min-content;
+  display: flex;
+  justify-content: start;
+}
+.content__driver--icon img{
+  width: 16px;
+  height: 16px;
+}
+.content__driver--icon h3 {
+  margin-left: 4px;
+}
+.content__driver--phone {
+  display: flex;
+  justify-content: center;
+}
+.content__price p,
+.content__max-passenger p,
+.content__license p{
+  margin-left: 4px;
+}
 
-.content .content__foto {
+.content .content__photo {
   padding: 0px;
   overflow: hidden;
 }
-.content__foto img {
+.content__photo img {
   width: 100%;
   height: auto;
 }

@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+
 }
 .categories__list {
   display: flex;
@@ -7,7 +7,7 @@ body {
 }
 .categories__list div{
   display: flex;
-  margin: 8px;
+  margin: 0 8px;
   padding: 8px;
   font-size: 1.4rem;
   align-items: center;
@@ -26,10 +26,14 @@ body {
 }
 .frame-content {
   height: 100vh;
+  min-width: min-content;
+  display: grid;
+  row-gap: 16px;
   overflow-y: scroll;
   padding: 8px;
 }
 .frame-content figure {
+  height: min-content;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr 2fr 1fr;
