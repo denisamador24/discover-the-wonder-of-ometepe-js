@@ -12,10 +12,10 @@
 
 <body>
  <main>
+   <div id="changeSection">
+     <img src="./assets/icon/circle-user.png">
+   </div>
    <section id="home-frame" class="background-river">
-     <div class="home-frame__profile">
-       <img src="./assets/icon/circle-user.png" alt="Profile">
-     </div>
      <figure class="home-frame__logo">
        <img src="./assets/img/logo.jpg" alt="Logo">
      </figure>
@@ -30,16 +30,22 @@
        <img src="./assets/img/logo.jpg" alt="Logo">
      </figure>
      <div class="login__form">
-       <p>Iniciar sesión</p>
+       <h2>Iniciar sesión</h2>
        <form action="">
-         <input type="text">
-         <input type="text">
+         <div>
+           <img src="./assets/icon/user.png" alt="icono usuario">
+           <input type="text">
+         </div>
+         <div>
+           <img src="./assets/icon/lock.png" alt="">
+           <input type="text">
+         </div>
        </form>
        
        <div>
-         <button type="submit">Iniciar Sesión</button>
-         <p>o<p>
-         <button type="submit">Google</button>
+         <button class="primary-button" type="submit">Iniciar Sesión</button>
+         <p class="buttons-o">o<p>
+         <button class="secondary-button" type="submit"><img src="./assets/icon/google.png"><p>Google</p></button>
        </div>
      </div>
    </section>

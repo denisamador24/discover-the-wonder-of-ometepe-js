@@ -245,6 +245,24 @@ const dataBeach = [
       ]
     }
   },
+  {
+    name: 'Playa Mango',
+    schedule: '',
+    address: 'FFRM+QMC, NN-226, Balgüe',
+    geo: '',
+    phone: '',
+    email: '',
+    photos: [
+          'mango',
+          'mango1',
+          'mango2',
+          'mango3',
+        ],
+    description: {
+      text: '',
+      img: []
+    }
+  },
 ];
 const dataBars = [];
 const dataParks = [];
